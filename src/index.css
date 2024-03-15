@@ -1,0 +1,141 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
+
+body {
+  background-color: #f7f7f7;
+}
+.login_page {
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  text-align: center;
+}
+
+.login_page_card {
+  padding: 30px 30px 10px 30px;
+  border: none;
+  box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+  border-radius: 25px;
+  margin-top: 25px;
+  background-color: #fff;
+}
+
+.login_page_card p {
+  padding-top: 20px;
+  font-family: poppins;
+  font-size: 13px;
+}
+
+.login_page_card label {
+  color: #495057b3;
+  font-family: poppins;
+  text-align: left !important;
+  font-size: 13px;
+  margin-bottom: 0px;
+  margin-top: 9px;
+}
+
+.login_page_card input::placeholder {
+  color: #495057b3;
+  font-family: poppins;
+  font-size: 14px;
+}
+.login_page_card h1 {
+  font-family: poppins !important;
+}
+
+.login_formcontrol {
+  height: 45px;
+  border: 1px solid rgba(149, 157, 165, 0.2) !important;
+  border-radius: 10px;
+  background-color: #f7f7f7 !important;
+}
+
+.login_formcontrol:focus {
+  box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px !important;
+}
+
+.login_page img {
+  width: 200px;
+}
+
+@media screen and (min-width: 0px) and (max-width: 768px) {
+  .login_page img {
+    width: 150px;
+  }
+  .login_head {
+    font-size: 20px;
+    margin-top: 20px;
+  }
+}
+.login_button {
+  text-align: left;
+  margin-top: 9px;
+}
+
+.login_button button {
+  padding: 7px 25px;
+  border: 1px solid #495057b3;
+  border-radius: 5px;
+  background-color: #fff;
+  font-family: poppins;
+  color: #495057b3;
+}
+
+
+.login_navigatebtn {
+  border: none !important;
+  background: none !important;
+  color: #0935e4;
+}
+.login_navigatebtn:hover {
+  text-decoration: underline;
+}
+
+
+.signup_page_card {
+  padding: 30px 30px 10px 30px;
+  border: none;
+  box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+  border-radius: 25px;
+  margin-top: 25px;
+  background-color: #fff;
+}
+
+@media screen and (min-width:0px) and (max-width:767px) {
+  .signup_page_card {
+    padding: 20px 20px 10px 20px;
+    margin-top: 150px !important;
+    margin-bottom: 40px ;
+    border-radius: 10px;
+  }
+
+  .login_page_card {
+    padding: 20px 20px 10px 20px;
+    border-radius: 10px;
+  }
+
+
+}
+.signup_page_card p {
+  padding-top: 20px;
+  font-family: poppins;
+  font-size: 13px;
+}
+
+.signup_page_card label {
+  color: #495057b3;
+  font-family: poppins;
+  text-align: left !important;
+  font-size: 13px;
+  margin-bottom: 0px;
+  margin-top: 9px;
+}
+
+.signup_page_card input::placeholder {
+  color: #495057b3;
+  font-family: poppins;
+  font-size: 14px;
+}
+.signup_page_card h1 {
+  font-family: poppins !important;
+}
